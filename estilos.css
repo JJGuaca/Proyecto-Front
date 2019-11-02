@@ -1,0 +1,142 @@
+    @font-face {
+font-family: 'Segoe UI Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Segoe UI Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Segoe UI Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Segoe UI Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+}
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1201px;
+}
+body{
+    background-color: white;
+}
+.dimen{
+   max-width: 1400px;
+    min-height: 1000px;
+}
+header{
+    width: 100%;
+    height: 800px;
+    text-align: justify;
+    padding: 100px;
+    background-image: url("Imag/Landings-image.jpg");
+    opacity: 0.75;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section.blk1 {
+    display: block;
+    margin: 10px;
+}   
+.lor{
+    position: relative;
+    left: 30%;
+    top: 100px;
+    width: 50%;
+    text-align: center;
+    font-size: 13px;
+    font-family: SegoeUI-Bold, "Segoe UI";
+    letter-spacing: -0.6px;
+    color: rgb(255,255,255);
+}
+.spl1 {
+    font-size: 30px;
+    font-family: SegoeUI-Bold, "Segoe UI";
+    font-weight: 700;
+    color: rgb(255,255,255);
+}
+button.btn.btn-primary {
+    border-radius: 150px;
+    letter-spacing: 4px;
+    padding: 10px 54px;
+    background-color: rgba(0, 123, 255, 1);
+    font-family: SegoeUI-Bold, "Segoe UI";
+    font-weight: 700;
+
+}
+a.Rut {
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+.spl2{
+    font-size: 30px;
+    font-family: SegoeUI-Bold, "Segoe UI";
+    font-weight: 700;
+    color: rgb(255,255,255);
+    position: relative;
+    top: -230px;
+    right: 60px;
+}
+.nav-ul{
+    list-style: none;
+    position: relative;
+    top: -280px;
+    left: 60px;
+}
+.nav-ul li{
+    float: right;
+}
+.nav-ul li a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}
+aside#as-img {
+    background-image: url(Imag/Landings-image2.jpg);
+}
+.img2 {
+    width: 109%;
+    margin: 0;
+    padding: 0;
+    top: -20px;
+    left: -1px;
+    position: relative;
+}
+.spl11{
+    font-size: 40px;
+    font-family: SegoeUI-Bold, "Segoe UI";
+    font-weight: 700;
+    color: rgb(15,15,15);
+    opacity: 0.6;
+    letter-spacing: -0.9px;
+    padding: 60px 10px;
+}
+.spl113{
+    font-size: 20px;
+    font-family: SegoeUI-Bold, "Segoe UI";
+    color: rgb(15,15,15);
+    padding: 60px 10px;
+}
+button#bt2i {
+    padding: 14px 108px;
+    font-size: 30px;
+}
+.art3{
+    padding: 20px;
+    text-align: center;
+}
