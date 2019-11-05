@@ -1,0 +1,29 @@
+#repro{
+	width: 100%;
+}
+.textv{
+  	position: absolute;
+    top: 7px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 15%;
+}
+h3#tt{
+	padding-top: 15%;
+	font-size: 400%;
+    font-family: SegoeUI-Light, "Segoe UI";
+    font-weight: 300;
+    color: rgb(255,255,255);
+}
+p#ttp{
+	 font-size: 180%;
+    font-family: SegoeUI, "Segoe UI";
+    letter-spacing: 0.01em;
+    color: rgb(255,255,255);
+    font-weight: 300;
+}

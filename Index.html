@@ -6,8 +6,12 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- JS and CSS for Video Player -->
+	<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+	<script src="http://vjs.zencdn.net/4.12/video.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="repro.css">
 </head>
 <body>
 		<!--SECCION 1 -->
@@ -103,22 +107,35 @@
 						</article>
 					</div></a>
 			</section>
-		<div>
-			<section>
-				<div>
-				
+		<!--SECCION 4-->
+		<div class="container-fluid">
+			<section class="main-row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div>
+						<video class="vjs-16-9" controls="true" id="repro">		
+								<source src="video/example.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="textv">
+						<h3 id="tt">Our Case Studies</h3>
+						<p id="ttp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea modi qui facilis dolorem natus illo eius mollitia voluptates, quos dolore.</p>
+					</div>
 				</div>
 			</section>
 		</div>
-<footer>
-	<div class="container-fluid">
-		<p>Copyright 2019. Prueba FrontEnd-Replica Jorge Guaca</p>
-	</div>
-</footer>
+		<!--SECCION 5-->
+		
+
+		<footer class="container-fluid	">
+			<div>
+				<h3>Copyright 2019. Prueba FrontEnd-Replica Jorge Guaca</h3>
+			</div>
+		</footer>
 <script src="js/jquery.js"></script>
 <script src="boton.js"></script>
 <script scr="js/bootstrap.min.js"></script>
-<div style="font-size: 4px; text-align: center;">Icons made by <a href="https://www.flaticon.es/<?=_('authors/')?>freepik" title="Freepik">Freepik</a>
+<script src="js/video.js"></script>
+<div style="font-size: 4px; text-align: center;background-color: black; color: white;">Icons made by <a href="https://www.flaticon.es/<?=_('authors/')?>freepik" title="Freepik">Freepik</a>
 	 from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.com</a>Icons made by <a href="https://www.flaticon.es/autores/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.es/"         title="Flaticon">www.flaticon.com</a>Icons made by <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/"         title="Flaticon">www.flaticon.com</a>Icons made by <a href="https://www.flaticon.es/autores/srip" title="srip">srip</a> from <a href="https://www.flaticon.es/"         title="Flaticon">www.flaticon.com</a>Icons made by <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/"         title="Flaticon">www.flaticon.com</a>Icons made by <a href="https://www.flaticon.es/autores/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.es/"         title="Flaticon">www.flaticon.com</a></div>
 </body>
 </html>
