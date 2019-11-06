@@ -88,16 +88,32 @@ header nav ul li a:hover{
 @media screen and (max-width:760px) {
     header nav{
         width: 25%;
-        height: 70%;
+        height: 100%;
         left: -100%;
         margin: 0;
         position: fixed;
         z-index: 5;
-        background: rgba(0, 0, 255, 0.36);
+        background: white;
+        color: blue;
     }
     header nav ul li{
         display: block;
         float: none;
+    }
+    header nav ul li a {
+        color: rgba(50, 50, 200, 0.59);
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: SegoeUI-Bold, "Segoe UI";
+        border-bottom: 1px solid rgba(10, 10, 10, 0.18);
+    }
+    header nav ul li a:hover {
+        color: rgba(82, 82, 125, 0.38);
+        text-decoration: none;
+        font-size: 20px;
     }
     .menu_bar{
         position: fixed;
@@ -105,9 +121,10 @@ header nav ul li a:hover{
         width: 100%;
         text-align: end;
         z-index: 1;
+        background: white;
     }
     .menu_bar a{
-        padding: 20px;
+        padding: 0px 20px;
         display: block;
         text-decoration: none;
         font-weight: 700;
