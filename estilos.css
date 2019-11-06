@@ -379,6 +379,7 @@ footer{
     color: rgba(255,255,255,0,5);
 }
 .tt3 {
+     margin-top: -100px;
     font-family: SegoeUI-Bold, "Segoe UI";
     letter-spacing: -3px;
     color: rgba(255, 255, 255, 0.8);
