@@ -31,6 +31,95 @@ src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('wof
     max-width: 1400px;
 }
 
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(255,255,255);
+}
+header{
+    width: 100%;
+}
+header nav{
+    width: 100%;
+    margin: 30px auto;
+    max-width: 1200px;
+    text-decoration: none;
+    font-weight: 200;
+    font-family: SegoeUI-Bold, "Segoe UI";
+    font-size: 22px;
+}
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: right;
+}
+header nav ul li a{
+    color: rgba(255, 255, 255, 0.55);
+    padding: 30px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: SegoeUI-Bold, "Segoe UI";
+}
+header nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu_bar{
+    float: left;
+}
+.menu_bar a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: SegoeUI-Bold, "Segoe UI";
+    font-size: 40px;
+    color: rgb(217, 240, 255);
+    letter-spacing: -1px;
+}
+@media screen and (max-width:760px) {
+    header nav{
+        width: 25%;
+        height: 70%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+        z-index: 5;
+        background: rgba(0, 0, 255, 0.36);
+    }
+    header nav ul li{
+        display: block;
+        float: none;
+    }
+    .menu_bar{
+        position: fixed;
+        right: 0px;
+        width: 100%;
+        text-align: end;
+        z-index: 1;
+    }
+    .menu_bar a{
+        padding: 20px;
+        display: block;
+        text-decoration: none;
+        font-weight: 700;
+        font-family: SegoeUI-Bold, "Segoe UI";
+        font-size: 40px;
+        color: rgb(217, 240, 255);
+        letter-spacing: -1px;
+    }
+    
+}
+
+/*header*/
 div#bgc1{
     background-image: url(Imag/Landings-image.jpg);
     background-size: cover;
@@ -50,49 +139,12 @@ article.col-xs-12.col-sm-12.col-md-12 {
 }
 
 .tt{
-    margin-top: 5%;
+    margin-top: 1%;
     font-family: SegoeUI-Bold, "Segoe UI";
     letter-spacing: 0px;
     color: rgb(217, 240, 255);
     font-weight: 700;
     font-size: 30px;
-}
-
-.nav-ul {
-    list-style: none;
-}
-
-.nav-ul li{
-    float: right;
-}
-.nav-ul li a {
-    padding: 10px 20px 10px 20px;
-    font-size: 15px;
-    font-family: SegoeUI, "Segoe UI";
-    color: rgb(255,255,255);
-    opacity: 0.6;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-}
-
-.menu{
-    float: left;
-}
-
-@media screen and(max-width: 700px) {
-
-    header nav{
-        float: left;
-        width: 70%;
-        height: 100%;
-        margin: 0;
-        position: fixed;
-
-    }
-    .menu{
-        float: right;
-    }
-    
 }
 
 .tt1{
@@ -147,7 +199,7 @@ aside#img2 {
     margin: 10%;
 }
 .psec1{
-    margin:10%;
+    margin:0%;
     font-size: 20px;
     font-family: SegoeUI-Bold, "Segoe UI";
     letter-spacing: -1px;

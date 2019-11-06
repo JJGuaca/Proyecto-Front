@@ -1,16 +1,15 @@
-document.addEventListener('DOMContentLoaded', menu);
-function menu(){
-	var contador=1;
-	$('.tt').click(function(){
-		//$('nav').toggle();
-		if(contador==1){
-			$('.nav-ul li').animate({
+$(document).ready(main);
+var con=1;
+function 	main() {
+	$('.menu_bar').click(function(){
+		if(con==1){
+			$('nav').animate({
 				left:'0'
 			});
-			contador=0;
+			con=0;
 		}else{
-			contador=1;
-			$('.nav-ul li').animate({
+			con=1;
+			$('nav').animate({
 				left:'-100%'
 			});
 		}
